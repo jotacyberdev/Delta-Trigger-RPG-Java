@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/A3-Una-Delta-Trigger-jotaGUI.iml" filepath="$PROJECT_DIR$/.idea/A3-Una-Delta-Trigger-jotaGUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Delta_Trigger/Delta_Trigger.iml" filepath="$PROJECT_DIR$/Delta_Trigger/Delta_Trigger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jota_GUI/Jota_GUI.iml" filepath="$PROJECT_DIR$/Jota_GUI/Jota_GUI.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+package util;
+import java.io.*;import java.util.*;
+public final class TextoService {private static final Map<String,String>TEXTOS=carregar();private TextoService(){}private static Map<String,String>carregar(){Map<String,String>m=new HashMap<String,String>();File f=new File("data/textos.txt");if(!f.exists())return m;try{BufferedReader br=new BufferedReader(new FileReader(f));String l;while((l=br.readLine())!=null){if(l.trim().isEmpty()||l.startsWith("#"))continue;int i=l.indexOf('|');if(i>0)m.put(l.substring(0,i).trim(),l.substring(i+1));}br.close();}catch(Exception e){}return m;}public static String obter(String chave,String padrao){String t=TEXTOS.get(chave);return t==null||t.trim().isEmpty()?padrao:t;}}

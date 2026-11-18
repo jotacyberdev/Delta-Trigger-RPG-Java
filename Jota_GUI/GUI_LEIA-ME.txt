@@ -1,0 +1,21 @@
+DELTA TRIGGER — GUI ETAPA 2
+
+ALTERAÇÕES DESTA VERSÃO
+- Paleta azul + dourado inspirada na identidade visual/logo.
+- Logo adicionada ao menu inicial.
+- História agora aparece automaticamente com efeito de digitação.
+- Botão para pular a animação da história.
+- Imagens de Kael e Lyra nos cards de seleção.
+- Primeira batalha gráfica contra um Lobo.
+- Botões Atacar, Habilidade, Defender e Fugir.
+- HP do personagem e do inimigo atualizados visualmente.
+- Models originais continuam preservados.
+
+COMO EXECUTAR
+1. Extraia o ZIP.
+2. Abra a pasta delta_gui no IntelliJ.
+3. Execute src/MainGUI.java.
+
+IMPORTANTE
+Mantenha a pasta assets ao lado de src. Ela contém os recortes visuais usados pela GUI.
+A opção Habilidade ainda não executa as habilidades porque Guerreiro/Suporte usam Entrada.lerInt no terminal; essa conversão será a próxima subetapa.
